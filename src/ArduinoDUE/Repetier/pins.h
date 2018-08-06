@@ -616,8 +616,8 @@ STEPPER_CURRENT_CONTROL
 #define E0_PINS ORIG_E0_STEP_PIN,ORIG_E0_DIR_PIN,ORIG_E0_ENABLE_PIN,
 #define E1_PINS ORIG_E1_STEP_PIN,ORIG_E1_DIR_PIN,ORIG_E1_ENABLE_PIN,
 
-#define TWI_CLOCK_FREQ          100000
 #if MOTHERBOARD == 408
+#define TWI_CLOCK_FREQ          100000
 //	20 or 70
 #define SDA_PIN 			-1 
 // 21 or 71
@@ -1185,7 +1185,7 @@ AD15 CH15
 // Due analog pin #56
 #define TEMP_3_PIN       4 
 // Due analog pin #57
-//#define TEMP_4_PIN       4 
+#define TEMP_4_PIN       3 
  
 // Due analog pin #59 = A5 -> AD 2
 #define THERMOCOUPLE_0_PIN  2   
